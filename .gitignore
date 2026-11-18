@@ -1,0 +1,25 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Personal data copies (never commit)
+local-data/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+dist/
+build/
+.next/
+
+# OS and editors
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+*.log
